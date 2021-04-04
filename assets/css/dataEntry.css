@@ -1,0 +1,131 @@
+* Google Fonts CSS */
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap");
+
+/* Global CSS */
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+p {
+  color: #fff;
+  margin: 0;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header {
+  padding: 20px;
+}
+header h2 {
+  color: #00add9;
+  text-align: center;
+}
+h5{
+  padding: 25px 0;
+  color:red;
+}
+.log-out-btn {
+  background-color: #0eaa05;
+  border: 0;
+  padding: 12px 33px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  float: right;
+}
+/* .nav-section */
+nav {
+  background: #0eaa05;
+}
+.navbar-dark .navbar-brand {
+  color: #fff;
+  letter-spacing: 4px;
+}
+.navbar-nav {
+  margin: 0 auto;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+  padding: 10px 20px 20px;
+  margin: 0 auto;
+}
+.dropdown {
+  transition: 0.4s ease-in-out;
+}
+.dropdown-menu {
+  background-color: #0eaa05;
+  width: 230px;
+  top: 53px;
+  left: 10px;
+}
+.dropdown-item {
+  color: #f8f9fa;
+  padding: 10px 25px;
+  text-align: center;
+}
+.dropright:hover > .dropdown-menu {
+  display: block;
+  background-color: #0eaa05;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #0eaa05;
+  border-color: #0eaa05;
+  width: 215px;
+}
+.btn-group > .btn:first-child {
+  margin: 10px;
+}
+.dropright .dropdown-menu {
+  margin-top: -17%;
+  margin-left: 92%;
+}
+.dropdown-toggle:hover::after {
+  color: #fff;
+}
+
+.input-section {
+    padding: 100px 0;
+}
+.input-section label {
+    font-weight: 700;
+    font-size: 18px;
+}
+.input-section form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.input-form, select{
+    padding: 5px 15px;
+    margin-bottom: 25px;
+}
+.submit-btn{
+	background-color: #0eaa05;
+    border: 0;
+    padding: 7px 94px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    margin: 0 auto;
+    display: block;
+}
+.tittle{
+  color: black;
+  text-align: center;
+  padding: 50px;
+}
